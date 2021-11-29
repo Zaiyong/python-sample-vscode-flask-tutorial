@@ -6,16 +6,6 @@
 trigger:
 - master
 
-parameters:
-- name: genericPipelineEnabled
-  displayName: Generic pipeline enabled
-  type: boolean
-  default: true
-- name: calibrationPipelineEnabled
-  displayName: Calibration pipeline enabled
-  type: boolean
-  default: false
-
 
 pool:
   vmImage: ubuntu-latest
